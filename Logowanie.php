@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Strona Główna</title>
+    <title>kupa Główna</title>
     <meta name="description" content="Strona kółka foto-video Reporter">
     <meta name="keywords" content="Reporter, foto-video, ZST Leżajsk">
     <meta name="author" content="Robin Verbist">
