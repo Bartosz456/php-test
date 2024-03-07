@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body{
+    min-height: 100vh;
+    font: normal 1.125em/1.5 'Roboto', sans-serif;
+}
+.naglowek{
+    background-color:#cbced4;
+    padding:15px;
+    min-height: 15vh;
+}
+.tytul{
+    text-align: center;
+    font-size: 60px;
+}
+.logo{
+    position: absolute;
+}
+
+.tall {
+  display: inline-block;
+  width: 100%;
+}
+.jmenu{
+    background:#26272b;
+    box-shadow:1px 1px 3px 0 rgba(0,0,0,.5);
+    box-sizing:border-box;line-height:1;
+}
+input.jm-menu-btn,input[type=checkbox].jm-menu-btn~.jm-collapse{
+    display:none;
+}
+input[type=checkbox]:checked.jm-menu-btn~.jm-collapse{
+    display:block}label.jm-menu-btn{
+    color:#959595;
+    cursor:pointer;
+    display:block;
+    padding:16px 32px
+}
+label.jm-menu-btn:hover{color:#fff}.jm-collapse{
+   border-top:1px #959595 solid
+}
+    .jmenu li,.jmenu ul{
+    list-style:none;
+    margin:0;
+    padding:0
+}
+.jmenu a{
+    color:#959595;
+    display:inline-block;
+    padding:16px 32px;
+    text-decoration:none;
+    font-size: 2.5vh;
+}
+.jmenu a:hover{
+    color:#fff
+}
+.jmenu ul ul{
+    display:none
+}
+.jm-icon-dropdown{
+    border:solid #959595;
+    border-width:0 2px 2px 0;
+    display:inline-block;
+    margin:0 0 3px 8px;
+    padding:3px;
+    transform:rotate(45deg)
+}
+li:hover .jm-icon-dropdown{
+    border-color:#fff
+}
+.jm-icon-menu::before{
+    content:'\2630'
+}
+.zawartosc {
+    float: left;
+    width: 80%;
+    padding: 0 20px;
+    overflow: hidden;
+    min-height: 69vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.stopka{
+    background-color:#cbced4;
+    text-align:center;
+    padding:10px;
+    font-size:12px;
+    min-height: 10vh;
+}
+
+@media only screen and (max-width:768px) {
+    .logo{
+        display: block;
+        margin: auto;
+        position: relative;
+    }
+    .tytul{
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width:768px){
+    .jmenu li{
+        display:inline-block
+    }
+    .jmenu a{
+            padding:16px
+    }
+    input.jm-menu-btn,label.jm-menu-btn{
+        display:none
+    }
+    .jm-collapse,input[type=checkbox].jm-menu-btn~.jm-collapse{
+        display:block
+    }
+    .logowanie{
+        float: right;
+    }
+}
+.formularz{
+    
+}
+
+
+
